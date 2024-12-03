@@ -1,6 +1,13 @@
+/* Agrega esto a tu archivo App.css o en un archivo CSS global */
+body {
+  margin-top: 80px; /* Ajusta el valor según el tamaño del navbar */
+}
+
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
