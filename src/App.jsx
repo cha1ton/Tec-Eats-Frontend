@@ -1,16 +1,16 @@
 // src/components/user/App.jsx
 import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
-import Login from "./Login";
-import HomePage from "./HomePage";
-import DishList from "./DishList";
-import Cart from "./Cart"; // Importamos el componente del carrito
-import Checkout from "./Checkout"; // Importamos el componente Checkout
-import UserProfile from './UserProfile';  // Importar el componente UserProfile
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Login from "./components/Login";
+import HomePage from "./components/HomePage";
+import DishList from "./components/DishList";
+import Cart from "./components/Cart"; // Importamos el componente del carrito
+import Checkout from "./components/Checkout"; // Importamos el componente Checkout
+import UserProfile from './components/UserProfile';  // Importar el componente UserProfile
 
-import "./Styles.css";
+import "./components/Styles.css";
 
 const AppUser = () => {
   const [cart, setCart] = useState([]); // Estado para almacenar los elementos del carrito

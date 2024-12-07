@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import AppUser from './components/user/App';  // Importa el archivo correcto AppUser.jsx
+import AppUser from './App';  // Importa el archivo correcto AppUser.jsx
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

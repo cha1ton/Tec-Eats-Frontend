@@ -52,7 +52,7 @@ const DishList = ({ addToCart }) => {
                 <div className="card-body">
                   <h5 className="card-title">{dish.name}</h5>
                   <p className="card-text">{dish.description}</p>
-                  <p className="card-text">Precio: ${dish.price}</p>
+                  <h6>Precio: ${dish.price}</h6>
                   <button 
                     className="btn btn-primary" 
                     onClick={() => addToCart(dish)} 
